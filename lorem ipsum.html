@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bars-container {
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .bar{
+            width: 300px;
+            height: 30px;
+            background-color: teal;
+            margin-top: 10px;
+        }
+
+        .three + .bar{
+            background-color: tomato;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="bars-container">
+        <div class="bar one"></div>
+        <div class="bar two"></div>
+        <div class="bar three"></div>
+        <div class="bar four"></div>
+        <div class="bar five"></div>
+    </div>
+</body>
+</html>
